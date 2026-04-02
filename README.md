@@ -17,7 +17,7 @@ The driver is written for **STM32 MCUs** using the **STM32 HAL** library and sup
 
 | ACS37800 Pin | STM32 Pin        |
 |--------------|------------------|
-| `VDD`        | 3.3V             |
+| `VCC`        | 3.3V or 5V       |
 | `GND`        | GND              |
 | `SCLK`       | SPI SCK          |
 | `MOSI`       | SPI MOSI         |
