@@ -15,14 +15,14 @@ The driver is written for **STM32 MCUs** using the **STM32 HAL** library and sup
 
 ## Hardware Connection (SPI)
 
-| ACS37800 Pin | STM32 Pin        | Notes                         |
-|--------------|------------------|-------------------------------|
-| `VDD`        | 3.3V             |                               |
-| `GND`        | GND              |                               |
-| `SCLK`       | SPI SCK          |                               |
-| `MOSI`       | SPI MOSI         |                               |
-| `MISO`       | SPI MISO         |                               |
-| `CS`         | Any GPIO output  | Active LOW, manual control    |
+| ACS37800 Pin | STM32 Pin        |
+|--------------|------------------|
+| `VDD`        | 3.3V             |
+| `GND`        | GND              |
+| `SCLK`       | SPI SCK          |
+| `MOSI`       | SPI MOSI         |
+| `MISO`       | SPI MISO         |
+| `CS`         | Any GPIO output  |
 
 **SPI Mode:**  
 - **Mode 3** (CPOL = 1, CPHA = 1)
