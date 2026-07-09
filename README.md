@@ -1,7 +1,4 @@
 # ACS37800_SPI_STM32
-STM32 driver for ACS37800 (SPI Version) power monitoring IC
-
----
 
 This repository provides a **SPI driver** for the **ACS37800** power monitoring IC from Allegro MicroSystems.  
 The driver is written for **STM32 MCUs** using the **STM32 HAL** library and supports:
